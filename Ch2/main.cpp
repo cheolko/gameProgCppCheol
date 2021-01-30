@@ -11,17 +11,7 @@
 ////#pragma comment(lib, _CHCH_SDL_"\\build\\x64\\vc15\\bin\\opencv_world451.dll")
 #endif		_DEBUG
 
-asd
-f
-sadf
-sa
-dfas
-df
-sadf
-sa
-dfas
-df
-
+// again...
 
 int main(int argc, char** argv)
 {
