@@ -72,13 +72,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\_CHCH\ExternalFiles\SDL\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\_CHCH\ExternalFiles\SDL\lib\win\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\_CHCH\Externals\SDL\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\_CHCH\Externals\SDL\lib\win\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\_CHCH\ExternalFiles\SDL\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\_CHCH\ExternalFiles\SDL\lib\win\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\_CHCH\Externals\SDL\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\_CHCH\Externals\SDL\lib\win\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>

@@ -1,5 +1,5 @@
 #ifndef	_CHCH_SDL_
-#define	_CHCH_SDL_	"C:\\_CHCH\\ExternalFiles\\SDL"
+#define	_CHCH_SDL_	"C:\\_CHCH\\Externals\\SDL"
 #endif	_CHCH_SDL_ 
 
 #ifdef	_DEBUG  
