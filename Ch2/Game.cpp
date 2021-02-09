@@ -1,6 +1,7 @@
 #include "Game.h"
 //#include _CHCH_SDL_IMAGE"/include/SDL_image.h" // 나중에 다시 손보자...
 #include "C:/_CHCH\Externals/SDL/SDL2_image-2.0.5/include/SDL_image.h"
+#include "Math.h"
 #include "Actor.h"
 #include "Ship.h"
 #include "BGSpriteComponent.h"
@@ -95,7 +96,7 @@ void Game::LoadData()
 	// Create player's ship
 	mShip = new Ship(this); // FROM HERE.....
 
-	mShip->SetPosition(Vector2(100.0f, 384.0f));
+	mShip->SetPosition(Vector2(100.0f, 384.0f)); // Actor's method
 	mShip->SetScale(1.5f);
 
 	// Create actor for the background (this doesn't need a subclass)
