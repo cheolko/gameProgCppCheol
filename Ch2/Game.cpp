@@ -94,7 +94,7 @@ void Game::GenerateOutput()
 void Game::LoadData()
 {
 	// Create player's ship
-	mShip = new Ship(this); // FROM HERE.....
+	mShip = new Ship(this); 
 
 	mShip->SetPosition(Vector2(100.0f, 384.0f)); // Actor's method
 	mShip->SetScale(1.5f);
